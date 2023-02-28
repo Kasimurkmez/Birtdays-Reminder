@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./index.css";
 import List from "./components/List";
-import Data from "./components/Data";
+import Data from "./components/Data.json";
 
 function App() {
   const [people, setPeople] = useState(Data);
