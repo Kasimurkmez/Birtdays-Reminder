@@ -14,7 +14,7 @@ function List({ people, removePerson }) {
             <p>{age} Years</p>
             <div className="button">
               <button className="btn" onClick={() => removePerson(id)}>
-                Dismiss
+                Cancel
               </button>
             </div>
           </article>
